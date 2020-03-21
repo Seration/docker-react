@@ -7,18 +7,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload. Yes
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Hi there from feature branch :( XYZ
-        </a>
+       <h1>Welcome to React</h1>
       </header>
+       
+      <p className="App-intro">
+          I was changed on the feature branch
+        </p>
     </div>
   );
 }
